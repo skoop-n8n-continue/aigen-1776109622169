@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skoop Calendar</title>
+    <!-- Cache-Control requirements -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <link rel="stylesheet" href="styles.css?v=a1b2c3">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="current-info">
+                <h1 id="current-time">00:00:00</h1>
+                <p id="current-full-date">Monday, January 1, 2026</p>
+            </div>
+            <div class="month-title">
+                <h2 id="month-display">January 2026</h2>
+            </div>
+        </header>
+
+        <main class="calendar-wrapper">
+            <div class="calendar-grid" id="calendar-grid">
+                <div class="day-name">Sun</div>
+                <div class="day-name">Mon</div>
+                <div class="day-name">Tue</div>
+                <div class="day-name">Wed</div>
+                <div class="day-name">Thu</div>
+                <div class="day-name">Fri</div>
+                <div class="day-name">Sat</div>
+                <!-- Days will be injected here -->
+            </div>
+        </main>
+
+        <footer class="app-footer">
+            <div class="branding">
+                <span class="brand-name">Skoop</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js?v=a1b2c3"></script>
+</body>
+</html>
