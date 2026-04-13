@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #00b7af;
+    --primary-color: #ffcc00;
     --dark-bg: #10181f;
     --light-text: #ffffff;
     --secondary-text: #6a7071;
     --cell-bg: rgba(255, 255, 255, 0.05);
-    --today-bg: rgba(0, 183, 175, 0.2);
+    --today-bg: rgba(255, 204, 0, 0.2);
     --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
